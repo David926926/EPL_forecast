@@ -1,0 +1,14 @@
+# Raw data: download from Kaggle (see README); too large for GitHub
+database.sqlite
+# Intermediate files, rebuilt by run_all.sh
+data/
+# Python / OS / editor clutter
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+.venv/
+.vscode/
+.idea/
+# Internal planning document (kept locally)
+PROJECT_PLAN.md
