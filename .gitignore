@@ -16,3 +16,6 @@ PROJECT_PLAN.md
 report/report.md
 # Proposal lists group members' names; not published unless the group agrees
 docs/Proposal.pdf
+# Generated table dump and Chinese summary (kept locally)
+report/all_results.md
+report/key_results.md

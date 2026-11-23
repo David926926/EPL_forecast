@@ -1,7 +1,7 @@
 # Predicting EPL Match Outcomes by Strength Gap
 
 > Group 8 · 2026-11-22 · Data: English Premier League 2008/09–2015/16 (3,040 matches)
-> All result tables are in [all_results.md](all_results.md).
+> All result tables are in [`tables/`](tables/) (CSV).
 
 ---
 

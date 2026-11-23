@@ -20,7 +20,7 @@ bash run_all.sh          # run from the repository root, or run the modules belo
 | 7 | `python -m src.per_type_models` | Per-type models: `per_type_predictions.parquet`, `report/tables/models_*.csv`, `figures/models_*.png` (6 models: logit, CART, random forest, LightGBM, XGBoost, MLP; about 5 minutes, the three types run in parallel) |
 | 8 | `python -m src.training_regimes` | Per-type vs global training, plus two fixed-weight ensembles (a blend of the two: 0.5 × per-type + 0.5 × global; and the average of the 6 models): `regime_predictions.parquet`, `report/tables/regimes_*.csv`, `figures/regimes_*.png` (about 6 minutes) |
 | 9 | `python -m src.robustness` | Robustness: per-season scores, round-block bootstrap, calibration (`report/tables/robustness_*.csv`, `figures/robustness_*.png`; seconds) |
-| 10 | `python -m src.make_output` | `report/all_results.md`: every result table in one file, generated from the outputs |
+| 10 | `python -m src.make_output` | `report/all_results.md`: every result table in one file, generated from the outputs (local only, not tracked in git) |
 
 **Features** (nested layers, from the most basic to the most situational). F1 player ability: FIFA ratings of the starting XI by position (`gk_diff`, `def_diff`, `mid_diff`, `att_diff`). F2 adds team performance: `gd38_diff` and `sot38_diff` (per-match goal difference and shots on target over each club's last 38 EPL matches, home minus away), plus `home_promoted` and `away_promoted`. F3 adds 5-match form, goal environment, h2h, rest days, season stage and `xi_vs_usual_diff`. T (team performance only, the four F2 additions) is the reverse-order reference, so increments are reported in both directions (F2 vs F1 and F2 vs T).
 
