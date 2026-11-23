@@ -1,6 +1,6 @@
 # 全部结果表
 
-> 由 `python -m src.make_output` 自动生成，所有数字都直接读自流程输出的文件（`data/processed/`、`report/tables/`）。解读见 [report.md](report.md)。
+> 由 `python -m src.make_output` 自动生成，所有数字都直接读自流程输出的文件（`data/processed/`、`report/tables/`）。解读见 [report_en.md](report_en.md)。
 
 > 记号：类型 = 势均力敌（even）/ 中间（middle）/ 悬殊（lopsided）。合并测试期 = 4 个滚动测试赛季 2012/13–2015/16。log loss、RPS、Brier 都是越低越好。
 

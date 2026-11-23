@@ -1,7 +1,7 @@
 # 关键图表、数据与建模流程
 
 > Group 8 · 2026-11-20 · 英超 2008/09–2015/16（3,040 场）
-> 本文只保留关键内容。完整解读见 [report.md](report.md)，全部数字见 [all_results.md](all_results.md)。
+> 本文只保留关键内容。完整解读见 [report_en.md](report_en.md)，全部数字见 [all_results.md](all_results.md)。
 
 ---
 

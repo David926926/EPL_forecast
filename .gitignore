@@ -12,3 +12,7 @@ __pycache__/
 .idea/
 # Internal planning document (kept locally)
 PROJECT_PLAN.md
+# Chinese full report (kept locally)
+report/report.md
+# Proposal lists group members' names; not published unless the group agrees
+docs/Proposal.pdf
